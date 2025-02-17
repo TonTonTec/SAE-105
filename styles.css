@@ -1,0 +1,174 @@
+audio {
+    width: 100%;
+    outline: none;
+}
+
+
+body {
+    font-family: 'mus', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #ffffff, #000000);
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+
+}
+
+header h1 {
+    font-family: "Acme";
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-family: "Space Grotesk";
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.music-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.music-item {
+    font-family: "Acme";
+
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+}
+
+.music-list p {
+    margin-top: 0px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.music-item:hover,
+.music-suggestion button:hover {
+    transform: scale(1.15);
+}
+
+.music-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: 'Acme';
+}
+
+.play {
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.play:hover {
+    background-color: #45a049;
+}
+
+main p {
+    border: 1px solid white;
+    color: #000000;
+    font-family: 'Acme';
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.volume {
+    margin-top: 20px;
+}
+
+
+.music-suggestion {
+    margin-top: 4rem;
+    background-color: #000000; 
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: 'Acme';
+}
+
+.music-suggestion h2 {
+    font-family: 'Acme';
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.music-suggestion p {
+    font-size: 1.2rem;
+    font-family: 'Acme';
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+
+.music-suggestion .form-group {
+    font-family: 'Acme';
+    margin-bottom: 1.5rem;
+}
+
+.music-suggestion label {
+    font-family: 'Acme';
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.music-suggestion input,
+.music-suggestion textarea {
+    font-family: 'Acme';
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.music-suggestion button {
+    background-color: #ffffff;
+    font-family: 'Acme';
+    color: #000000;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
